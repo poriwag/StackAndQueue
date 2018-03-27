@@ -75,9 +75,18 @@ public class TheQueue {
 		}
 	}
 	
+	//traverse
 	public void print()
 	{
-		
+		for(int i = front; i != rear; ++i )
+		{	
+			if (i == NodeArray.length)
+			{
+				i = 0;
+			}
+			
+			System.out.println(NodeArray[i].getName());
+		}
 	}
 	
 }

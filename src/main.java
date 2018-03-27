@@ -18,7 +18,7 @@ public class main {
 		q1.insert(n3);
 		q1.peek();
 		
-		
+		q1.print();
 		
 		
 	}
